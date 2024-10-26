@@ -11,7 +11,8 @@ body {
 .header {
   background: white;
   border-bottom: 1px solid #ddd;
-  box-shadow: 0 0 px rgba(0,0,0,.1);
+  box-shadow: 0 0 8px rgba(0,0,0,.1);
+  height: 67px;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -19,31 +20,31 @@ body {
 
 .left-side {
   display: flex;
-  padding: 8px;
-  border: 10px;
+  width: 376.55px;
+  margin-left: 8px;
   justify-content: space-between;
 }
 
-.links {
-  display: flex;
-  list-style-type: none;
-  column-gap: 8px; 
-  justify-content: space-between;
-  padding: 4px;
-  margin: 4px;
-}
 
 .right-side {
   display: flex;
+  column-gap: 16px;
+  margin-right: 8px;
+}
+
+ul {
+  list-style-type: none;
+  display: flex;
+  column-gap: 16px;
+  padding: 0px;
 }
 
 .profile-image {
-  background: rgb(22, 13, 32);
+  background: rebeccapurple;
   box-shadow: inset 2px 2px 4px rgba(0,0,0,.5);
   border-radius: 50%;
   width: 48px;
   height: 48px;
-  margin: 5px;
 }
 
 .logo {
@@ -52,11 +53,6 @@ body {
   font-weight: 900;
   font-style: italic;
 }
-
-.notifications {
-  margin: 10px;
-}
-
 
 button {
   border: none;
@@ -70,9 +66,4 @@ a {
   /* this removes the line under our links */
   text-decoration: none;
   color: rebeccapurple;
-}
-
-ul {
-  display: flex;
-
 }
