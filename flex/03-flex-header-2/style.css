@@ -12,31 +12,10 @@ body {
   background: white;
   border-bottom: 1px solid #ddd;
   box-shadow: 0 0 8px rgba(0,0,0,.1);
-  height: 67px;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-}
-
-.left-side {
-  display: flex;
-  width: 376.55px;
-  margin-left: 8px;
-  justify-content: space-between;
-}
-
-
-.right-side {
-  display: flex;
-  column-gap: 16px;
-  margin-right: 8px;
 }
 
 ul {
   list-style-type: none;
-  display: flex;
-  column-gap: 16px;
-  padding: 0px;
 }
 
 .profile-image {
@@ -67,3 +46,35 @@ a {
   text-decoration: none;
   color: rebeccapurple;
 }
+
+/* SOLUTION */ 
+
+.header {
+  height: 67px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+ul {
+  display: flex;
+  column-gap: 16px;
+  padding: 0px;
+}
+
+.left-side {
+  display: flex;
+  width: 376.55px;
+  margin-left: 8px;
+  justify-content: space-between;
+}
+
+
+.right-side {
+  display: flex;
+  column-gap: 16px;
+  margin-right: 8px;
+}
+
+
+/* look into what "gap" does */
