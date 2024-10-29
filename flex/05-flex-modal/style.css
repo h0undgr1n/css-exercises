@@ -1,3 +1,4 @@
+
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
 
 html, body {
@@ -66,4 +67,40 @@ button.cancel {
   background: white;
   border: 1px solid #ddd;
   color: royalblue;
+}
+
+/* SOlution 
+Put the 3 middle parts in a column and align them, put the two buttons in a row and the header and cros button in a row too. 
+*/
+.modal {
+  display: flex;
+  height: 176.5px;
+  width: 480px;
+  padding: 16px;
+}
+
+.header {
+  font-weight: bold;
+  font-size: large;
+}
+
+.header-x-row {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 8px;
+}
+
+.large-middle-column {
+  display: flex;
+  flex-direction: column;
+}
+
+.icon-column {
+  margin-right: 16px
+}
+
+.text {
+  width: 422px;
+  margin-bottom: 16px;
 }
